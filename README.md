@@ -36,7 +36,7 @@ output:
 When router is '/example'
 ``` html
 <div className="example">
-  <Route exact path="/example" component={ Example } />
+  <Example/>
 </div>
 ```
 
@@ -44,7 +44,16 @@ When router is '/example/foo'
 ``` html
 <div className="example">
   <div className="foo">
-    <Route exact path="/example" component={ Example } />
+    <Foo/>
+  </div>
+</div>
+```
+
+When router is '/example/bar'
+``` html
+<div className="example">
+  <div className="foo">
+    <Bar/>
   </div>
 </div>
 ```
