@@ -52,7 +52,7 @@ When router is '/example/foo'
 When router is '/example/bar'
 ``` html
 <div className="example">
-  <div className="foo">
+  <div className="bar">
     <Bar/>
   </div>
 </div>
